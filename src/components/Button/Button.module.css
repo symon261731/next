@@ -1,0 +1,12 @@
+.button {
+    cursor: pointer;
+
+    display: inline-flex;
+    gap: 2px;
+    align-items: center;
+
+    color: #1473E6;
+
+    background-color: transparent;
+    border: none;
+}

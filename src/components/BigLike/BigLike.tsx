@@ -16,9 +16,8 @@ export const BigLike = ({ id }: IProps) => {
 
     const api = new customApi();
     const onLikeClick = () => {
-        // fetch('',);
-        api.patchLike(id).then((data) => {
-            if (data.ok) {
+        api.patchLike(id).then((statusOk) => {
+            if (statusOk) {
                 setIsAlreadyClicked(true);
             }
         });

@@ -4,12 +4,14 @@ export class customApi {
 
     public async patchLike(id: string) {
         try {
-            return await fetch(`${this.url}/posts/${id}`, {
-                method: 'PATCH',
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            });
+            return (
+                await fetch(`${this.url}/posts/${id}`, {
+                    method: 'PATCH',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+            ).ok;
         } catch (e) {
             console.log(e);
         }

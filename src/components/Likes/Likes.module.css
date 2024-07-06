@@ -1,0 +1,6 @@
+.likes {
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    color: var(--secondary-color);
+}

@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#idea
+.vcs.xml
+Project_Default.xml
+modules.xml
+eslint.xml
+prettier.xml

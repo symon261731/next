@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Button } from '@/components/Button/Button';
 import classes from './BigLike.module.css';
 import classNames from 'classnames';
-import { customApi } from '@/customapi/customApi';
+import { customApi } from '@/customApi/customApi';
 
 interface IProps {
     id: string;

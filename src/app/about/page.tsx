@@ -7,7 +7,14 @@ export default function About() {
     return (
         <div>
             <div className={classes.biglikeExample}>
-                <BigLike />
+                <nav>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                </nav>
+                <BigLike id={likeId} />
             </div>
         </div>
     );

@@ -11,7 +11,7 @@ export const Card = ({ info }: ICardProps) => {
     return (
         <div className={classes.card}>
             <div className={classes.imageContainer}>
-                <Image className={classes.image} src={url} alt='image' width={300} height={192} />
+                <Image src={url} alt='image' width={300} height={192} />
             </div>
             <div className={classes.textContent}>
                 <div className={classes.underImageContent}>

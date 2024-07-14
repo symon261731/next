@@ -1,8 +1,9 @@
 .main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-around;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px 10px;
+    justify-content: center;
 
     margin-top: 10px;
     padding: 10px;

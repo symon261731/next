@@ -1,4 +1,3 @@
-import classes from './Layout.module.css';
 import { DetailedHTMLProps, HTMLAttributes, ReactNode } from 'react';
 import { Header } from './Header/Header';
 

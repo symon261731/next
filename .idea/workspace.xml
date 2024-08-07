@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03585c77-17ca-4467-b862-4c47f05adc51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/about/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/GithubLinkContext/GithubLinkContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/GithubLinkContext/GithubLinkProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/[id]/styles.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/customApi/customApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/customApi/customApi.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <workItem from="1720995655623" duration="2389000" />
       <workItem from="1722173083572" duration="38000" />
       <workItem from="1722205958460" duration="1234000" />
-      <workItem from="1722966191642" duration="9199000" />
+      <workItem from="1722966191642" duration="13580000" />
     </task>
     <servers />
   </component>

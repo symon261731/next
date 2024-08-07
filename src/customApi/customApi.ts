@@ -28,4 +28,17 @@ export class customApi {
             console.log(e);
         }
     }
+
+    public async getPostInfoById(id: string | number) {
+        try {
+            return await fetch(`${this.url}/posts/${id}`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }).then((res) => res.json());
+        } catch (e) {
+            console.log(e);
+        }
+    }
 }

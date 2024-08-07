@@ -1,0 +1,12 @@
+.container {
+    padding: 15px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.subtitleContainer {
+    display: flex;
+    gap: 10px;
+}

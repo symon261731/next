@@ -26,7 +26,7 @@ export const Card = ({ info }: ICardProps) => {
             </div>
             <div className={classes.footer}>
                 <Text kind={'subtitle'}>{timeToRead} минуты</Text>
-                <Link href={'/about'}>
+                <Link href={`/about/${info.id}`}>
                     <Button hasArrow>Читать</Button>
                 </Link>
             </div>

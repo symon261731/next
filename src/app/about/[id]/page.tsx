@@ -3,6 +3,11 @@ import { Text } from '@/components/Text/Text';
 import Image from 'next/image';
 import classes from './styles.module.css';
 
+export async function generateStaticParams() {
+    const api = new customApi();
+    return (await api.getPosts()).map(({ id }) => ({ id: String(id) }));
+}
+
 async function getPostInfo(id: number | string) {
     const api = new customApi();
     return await api.getPostInfoById(id);

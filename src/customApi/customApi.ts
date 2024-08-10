@@ -41,4 +41,12 @@ export class customApi {
             console.log(e);
         }
     }
+
+    public async getCommentByPostId(postId: string| number) {
+        try {
+            return await fetch(`${this.url}/comments?postId=${postId}`).then(res=> res.json());
+        } catch(e) {
+            console.log(e);
+        }
+    }
 }

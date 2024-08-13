@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03585c77-17ca-4467-b862-4c47f05adc51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ReviewForm/ReviewForm.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ReviewForm/ReviewForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.stylelintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/customApi/customApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/customApi/customApi.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,27 +42,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;3-ssr&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/semenmishchenko/Desktop/coding/github/next-project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;/Users/semenmishchenko/Desktop/coding/github/next-project/node_modules/stylelint&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/semenmishchenko/Desktop/coding/github/next-project/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.stylesheets.stylelint&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/semenmishchenko/Desktop/coding/github/next-project/node_modules/typescript/lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "4-post",
+    "last_opened_file_path": "/Users/semenmishchenko/Desktop/coding/github/next-project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "/Users/semenmishchenko/Desktop/coding/github/next-project/node_modules/stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/semenmishchenko/Desktop/coding/github/next-project/node_modules/prettier",
+    "settings.editor.selected.configurable": "configurable.stylesheets.stylelint",
+    "ts.external.directory.path": "/Users/semenmishchenko/Desktop/coding/github/next-project/node_modules/typescript/lib"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -76,6 +84,7 @@
       <workItem from="1722173083572" duration="38000" />
       <workItem from="1722205958460" duration="1234000" />
       <workItem from="1722966191642" duration="15119000" />
+      <workItem from="1723581833705" duration="2472000" />
     </task>
     <servers />
   </component>

@@ -3,6 +3,7 @@ import { Text } from '@/components/Text/Text';
 import Image from 'next/image';
 import classes from './styles.module.css';
 import { CommentList } from './components/CommentList';
+import { ReviewForm } from '@/components/ReviewForm/ReviewForm';
 
 export async function generateStaticParams() {
     const api = new customApi();
@@ -14,12 +15,12 @@ async function getPostInfo(id: number | string) {
     return await api.getPostInfoById(id);
 }
 
-async function getComments(postId:number| string){
+async function getComments(postId: number | string) {
     const api = new customApi();
     return await api.getCommentByPostId(postId);
-
 }
 
+// @ts-ignore
 export default async function Page({ params }) {
     const { title, body } = await getPostInfo(params.id);
     const data = await getComments(params.id);
@@ -35,8 +36,11 @@ export default async function Page({ params }) {
                 <Text kind={'subtitle'}>3 минуты</Text>
             </div>
             <Image src={'/testImage.png'} alt={'testImage'} width={687} height={440} />
-            <Text className={classes.textContent} kind={'text'}>{body}</Text>
-            <CommentList data={data}/>
+            <Text className={classes.textContent} kind={'text'}>
+                {body}
+            </Text>
+            <CommentList data={data} />
+            <ReviewForm postId={params.id} />
         </div>
     );
 }

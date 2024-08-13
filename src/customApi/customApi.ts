@@ -41,4 +41,29 @@ export class customApi {
             console.log(e);
         }
     }
+
+    public async getCommentByPostId(postId: string | number) {
+        try {
+            return await fetch(`${this.url}/comments?postId=${postId}`).then((res) => res.json());
+        } catch (e) {
+            console.log(e);
+        }
+    }
+
+    public async addCommentForPost(
+        postId: string | number,
+        info: { name: string; comment: string }
+    ) {
+        try {
+            return await fetch(`${this.url}/posts/${postId}`, {
+                method: 'PATCH',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(info)
+            }).then((res) => res.json());
+        } catch (e) {
+            console.log(e);
+        }
+    }
 }

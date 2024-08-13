@@ -6,6 +6,10 @@
     margin-bottom: 10px;
 }
 
+.textContent {
+    margin-bottom: 20px;
+}
+
 .subtitleContainer {
     display: flex;
     gap: 10px;

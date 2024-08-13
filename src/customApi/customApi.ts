@@ -16,4 +16,29 @@ export class customApi {
             console.log(e);
         }
     }
+    public async getPosts(): Promise<{ id: number; title: string; body: string }[]> {
+        try {
+            return await fetch(`${this.url}/posts`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }).then((res) => res.json());
+        } catch (e) {
+            console.log(e);
+        }
+    }
+
+    public async getPostInfoById(id: string | number) {
+        try {
+            return await fetch(`${this.url}/posts/${id}`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }).then((res) => res.json());
+        } catch (e) {
+            console.log(e);
+        }
+    }
 }

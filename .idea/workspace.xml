@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03585c77-17ca-4467-b862-4c47f05adc51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/mockData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BigLike/BigLike.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BigLike/BigLike.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/[id]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="2-components" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,27 +35,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "2-components",
-    "last_opened_file_path": "/Users/semenmishchenko/Desktop/coding/github/next-project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "/Users/semenmishchenko/Desktop/coding/github/next-project/node_modules/stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/semenmishchenko/Desktop/coding/github/next-project/node_modules/prettier",
-    "settings.editor.selected.configurable": "configurable.stylesheets.stylelint",
-    "ts.external.directory.path": "/Users/semenmishchenko/Desktop/coding/github/next-project/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;3-ssr&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/semenmishchenko/Desktop/coding/github/next-project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;/Users/semenmishchenko/Desktop/coding/github/next-project/node_modules/stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/semenmishchenko/Desktop/coding/github/next-project/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.stylesheets.stylelint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/semenmishchenko/Desktop/coding/github/next-project/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -83,7 +73,10 @@
       <workItem from="1719009960697" duration="15678000" />
       <workItem from="1720554373051" duration="5138000" />
       <workItem from="1720878405420" duration="606000" />
-      <workItem from="1720995655623" duration="1494000" />
+      <workItem from="1720995655623" duration="2389000" />
+      <workItem from="1722173083572" duration="38000" />
+      <workItem from="1722205958460" duration="1234000" />
+      <workItem from="1722966191642" duration="14491000" />
     </task>
     <servers />
   </component>
@@ -101,7 +94,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="1-start" />
+                        <option value="3-ssr" />
                       </list>
                     </value>
                   </entry>
